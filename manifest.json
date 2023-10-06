@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Domain Extractor",
+  "version": "1.0",
+  "description": "Extracts and displays the current domain",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "webNavigation"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
+
+
+
