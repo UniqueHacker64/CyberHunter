@@ -1,8 +1,8 @@
 import requests
 
 # defined API keys
-api_key1 = 'be27b1069c0152da757743e2633c87f7de986eb97882cba775389e90e276ad36'  # 1st API key
-api_key2 = '3b08f42c871f4a56c6cdd8a89065c85f7af0a4fa27c5a247891517f1d1635efa' # 2nd API key
+api_key1 = ''  # 1st API key
+api_key2 = '' # 2nd API key
 api_endpoint = 'https://www.virustotal.com/vtapi/v2/url/report' # URL scan endpoint
 
 
